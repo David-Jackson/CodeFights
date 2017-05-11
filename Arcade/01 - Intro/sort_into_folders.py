@@ -2,7 +2,7 @@ import glob
 import os
 
 
-folder = "Level 7\\"
+folder = "Level 12\\"
 
 
 for f in glob.glob(folder + "*"):
