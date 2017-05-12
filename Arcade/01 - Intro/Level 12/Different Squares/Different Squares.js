@@ -23,3 +23,5 @@
             }
         }
     }
+    return count;
+}s
