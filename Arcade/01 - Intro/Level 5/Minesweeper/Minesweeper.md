@@ -22,7 +22,7 @@ minesweeper(matrix) = [[1, 2, 1],
 
 Check out the image below for better understanding:
 
-![](images/example.png)
+![](https://codefightsuserpics.s3.amazonaws.com/tasks/minesweeper/img/example.png?_tm=1490636350838)
 
 **Input/Output**
 
