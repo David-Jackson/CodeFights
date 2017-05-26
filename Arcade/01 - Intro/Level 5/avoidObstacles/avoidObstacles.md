@@ -11,7 +11,7 @@ For `inputArray = [5, 3, 6, 7, 9]`, the output should be
 
 Check out the image below for better understanding:
 
-![](https://codefightsuserpics.s3.amazonaws.com/tasks/avoidObstacles/img/example.png?_tm=1490625560816)
+![](images/example.png)
 
 **Input/Output**
 

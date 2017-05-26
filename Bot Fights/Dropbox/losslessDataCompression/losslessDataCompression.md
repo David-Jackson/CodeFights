@@ -20,13 +20,13 @@ Given a string, apply _sliding window compression_ to it.
     *   Step 3: `i = 2, inputString[i] = 'a', window = "ab"`. `'a'` can be found in _the window_. `'a'` in _the window_ corresponds to the `inputString[0]`, so `(0,1)` representing the _substring_ `"a"` is appended to the result.
     *   Step 4: `i = 3, inputString[i] = 'c', window = "aba"`. The same situation as in the first two steps.
     *   Step 5: `i = 4, inputString[i] = 'a', window = "abac"`. Consider `startIndex = 0, length = 3`. `inputString[startIndex, startIndex + length - 1] = "aba"` and it is contained within _the window_, `inputString[i, i + length - 1] = "aba"`. Therefore, `"(0,3)"` should be added to the result. `i += length`.
-        ![](https://codefightsuserpics.s3.amazonaws.com/tasks/losslessDataCompression/img/example1.png?_tm=1490636301045)
+        ![](images/example1.png)
     *   Step 6: `i = 7, inputString[i] = 'd', window = inputString[0, 6] = "abacaba"`. The same situation as in the first two steps.
     *   Step 7: `i = 8, inputString[i] = 'a', window = inputString[1, 7] = "bacabad"`. Consider `length = 3` again. `inputString[i, i + b - 1] = "aba"`, `window[3, 5] = "aba"`, and it corresponds to `inputString[4, 6]` since `inputString[0, 2]` is no longer within _the window_. So, `"(4,3)"` should be appended. `i += length`.
     *   Step 8: `i = 11, inputString[i] = 'c', window = "abadaba"`. The same situation as at the first two steps.
     *   Step 9: `i = 12, inputString[i] = 'a', window = "badabac"`. `length = 3, inputString[i, i + length - 1] = "aba"`, `window[3, 5] = "aba"`, and it corresponds to `inputString[8, 10]`. So, `"(8,3)"` should be appended. `i += length`.
 
-    ![](https://codefightsuserpics.s3.amazonaws.com/tasks/losslessDataCompression/img/example2.png?_tm=1490636301255)
+    ![](images/example2.png)
 
 *   For `inputString = "abacabadabacaba"` and `width = 8`, the output should be
     `losslessDataCompression(inputString, width) = "ab(0,1)c(0,3)d(0,7)"`.

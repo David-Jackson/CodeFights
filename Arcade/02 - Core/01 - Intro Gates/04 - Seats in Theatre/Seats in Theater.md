@@ -10,7 +10,7 @@ For `nCols = 16`, `nRows = 11`, `col = 5` and `row = 3`, the output should be
 `seatsInTheater(nCols, nRows, col, row) = 96`.
 
 Here is what the theater looks like:
-![](https://codefightsuserpics.s3.amazonaws.com/tasks/seatsInTheater/img/example.png?_tm=1491302298590)
+![](images/example.png)
 
 **Input/Output**
 

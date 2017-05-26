@@ -7,7 +7,7 @@ Given `n` and `firstNumber`, find the number which is written in the radially op
 For `n = 10` and `firstNumber = 2`, the output should be
 `circleOfNumbers(n, firstNumber) = 7`.
 
-![](https://codefightsuserpics.s3.amazonaws.com/tasks/circleOfNumbers/img/example.png?_tm=1490625697098)
+![](images/example.png)
 
 **Input/Output**
 

@@ -7,7 +7,7 @@
 
     Check out the image below for better understanding:
 
-    ![](https://codefightsuserpics.s3.amazonaws.com/tasks/switchLights/img/example.png?_tm=1491409771765)
+    ![](images/example.png)
 
 *   For `a = [0, 0]`, the output should be
     `switchLights(a) = [0, 0]`.

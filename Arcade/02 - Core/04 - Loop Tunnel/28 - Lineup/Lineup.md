@@ -11,7 +11,7 @@ For `commands = "LLARL"`, the output should be
 
 Let's say that there are `4` students, and the second one can't tell left from right. In this case, only after the second, third and fifth commands will the students face the same direction.
 
-![](https://codefightsuserpics.s3.amazonaws.com/tasks/lineUp/img/example.png?_tm=1490636283687)
+![](images/example.png)
 
 **Input/Output**
 

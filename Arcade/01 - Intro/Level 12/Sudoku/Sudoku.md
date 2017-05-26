@@ -6,7 +6,7 @@ This algorithm should check if the given grid of numbers represents a correct so
 
 For the first example below, the output should be `true`. For the other grid, the output should be `false`: each of the nine `3 × 3` sub-grids should contain all of the digits from `1` to `9`.
 
-![](https://codefightsuserpics.s3.amazonaws.com/tasks/sudoku/img/sudoku.png?_tm=1493384923494)
+![](images/sudoku.png)
 
 **Input/Output**
 

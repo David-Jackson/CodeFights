@@ -11,7 +11,7 @@ For `comb1 = "*..*"` and `comb2 = "*.*"`, the output should be
 
 Although it is possible to place the combs like on the first picture, the best way to do this is either picture 2 or picture 3.
 
-![](https://codefightsuserpics.s3.amazonaws.com/tasks/combs/img/cbs.png?_tm=1490625710921)
+![](images/cbs.png)
 
 **Input/Output**
 

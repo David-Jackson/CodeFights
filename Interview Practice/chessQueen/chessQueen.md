@@ -19,7 +19,7 @@ chessQueen(q) =
 ```
 
 Here is a visualization of the answer:
-![](https://codefightsuserpics.s3.amazonaws.com/tasks/chessQueen/img/ex.png?_tm=1490625688598)
+![](images/ex.png)
 
 **Input/Output**
 

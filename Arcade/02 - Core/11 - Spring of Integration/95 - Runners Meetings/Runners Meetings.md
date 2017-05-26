@@ -11,7 +11,7 @@ For `startPosition = [1, 4, 2]` and `speed = [27, 18, 24]`, the output should be
 
 In 20 seconds after the runners start running, they end up at the same point. Check out the gif below for better understanding:
 
-![](https://codefightsuserpics.s3.amazonaws.com/tasks/runnersMeetings/img/example.gif?_tm=1491302292681)
+![](images/example.gif)
 
 **Input/Output**
 

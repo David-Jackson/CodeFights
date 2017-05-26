@@ -2,19 +2,19 @@
 
 The knight can move to a square that is two squares horizontally and one square vertically, or two squares vertically and one square horizontally away from it. The complete move therefore looks like the letter L. Check out the image below to see all valid moves for a knight piece that is placed on one of the central squares.
 
-![](https://codefightsuserpics.s3.amazonaws.com/tasks/chessKnight/img/knight.jpg?_tm=1486560102464)
+![](images/knight.jpg)
 
 **Example**
 
 *   For `cell = "a1"`, the output should be
     `chessKnight(cell) = 2`.
 
-    ![](https://codefightsuserpics.s3.amazonaws.com/tasks/chessKnight/img/ex_1.jpg?_tm=1486560102718)
+    ![](images/ex_1.jpg)
 
 *   For `cell = "c2"`, the output should be
     `chessKnight(cell) = 6`.
 
-    ![](https://codefightsuserpics.s3.amazonaws.com/tasks/chessKnight/img/ex_2.jpg?_tm=1486560102902)
+    ![](images/ex_2.jpg)
 
 **Input/Output**
 

@@ -12,14 +12,14 @@ Count the number of cells painted black.
 
     There are `6` cells that have at least one common point with the diagonal and therefore are painted black.
 
-    ![](https://codefightsuserpics.s3.amazonaws.com/tasks/countBlackCells/img/example1.jpg?_tm=1490625755747)
+    ![](images/example1.jpg)
 
 *   For `n = 3` and `m = 3`, the output should be
     `countBlackCells(n, m) = 7`.
 
     `7` cells have at least one common point with the diagonal and are painted black.
 
-    ![](https://codefightsuserpics.s3.amazonaws.com/tasks/countBlackCells/img/example2.jpg?_tm=1490625755909)
+    ![](images/example2.jpg)
 
 **Input/Output**
 

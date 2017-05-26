@@ -1,19 +1,19 @@
 ﻿Given the positions of a white `bishop` and a black `pawn` on the standard chess board, determine whether the bishop can capture the pawn in one move.
 
 The bishop has no restrictions in distance for each move, but is limited to diagonal movement. Check out the example below to see how it can move:
-![](https://codefightsuserpics.s3.amazonaws.com/tasks/bishopAndPawn/img/bishop.jpg?_tm=1493360096740)
+![](images/bishop.jpg)
 
 **Example**
 
 *   For `bishop = "a1"` and `pawn = "c3"`, the output should be
     `bishopAndPawn(bishop, pawn) = true`.
 
-    ![](https://codefightsuserpics.s3.amazonaws.com/tasks/bishopAndPawn/img/ex1.jpg?_tm=1493360096945)
+    ![](images/ex1.jpg)
 
 *   For `bishop = "h1"` and `pawn = "h3"`, the output should be
     `bishopAndPawn(bishop, pawn) = false`.
 
-    ![](https://codefightsuserpics.s3.amazonaws.com/tasks/bishopAndPawn/img/ex2.jpg?_tm=1493360097459)
+    ![](images/ex2.jpg)
 
 **Input/Output**
 

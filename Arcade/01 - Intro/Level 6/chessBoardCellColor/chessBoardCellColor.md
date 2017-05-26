@@ -5,12 +5,12 @@
 *   For `cell1 = "A1"` and `cell2 = "C3"`, the output should be
     `chessBoardCellColor(cell1, cell2) = true`.
 
-    ![](https://codefightsuserpics.s3.amazonaws.com/tasks/chessBoardCellColor/img/example1.png?_tm=1494338560912)
+    ![](images/example1.png)
 
 *   For `cell1 = "A1"` and `cell2 = "H3"`, the output should be
     `chessBoardCellColor(cell1, cell2) = false`.
 
-    ![](https://codefightsuserpics.s3.amazonaws.com/tasks/chessBoardCellColor/img/example2.png?_tm=1494338561188)
+    ![](images/example2.png)
 
 **Input/Output**
 
