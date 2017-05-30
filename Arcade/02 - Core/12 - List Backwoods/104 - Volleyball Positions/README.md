@@ -15,7 +15,7 @@ where positive numbers represent positions occupied by players. After the team g
 
 Here's how the players change their positions:
 
-![](https://codefightsuserpics.s3.amazonaws.com/tasks/volleyballPositions/img/example.png?_tm=1491409891893)
+![](images/example.png)
 
 Given the current `formation` of the team and the number of times `k` it gained the serve, find the initial position of each player in it.
 
