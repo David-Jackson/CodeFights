@@ -13,8 +13,9 @@ def save_all_images_from_markdown(filename):
                 name = os.path.join(directory, os.path.basename(url))
                 if not os.path.exists(directory):
                     os.makedirs(directory)
-                urllib.request.urlretrieve(url, name)
-                print(url)
+                if not os.path.isfile(name):
+                    urllib.request.urlretrieve(url, name)
+                    print(url)
 
 
 

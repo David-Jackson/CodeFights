@@ -29,6 +29,8 @@ def generate_readme(fn_name, location, readme_file, script_file):
 
 for root, dirs, files in os.walk(os.path.join("..")):
     for file in files:
-        if file.endswith(".md") and os.path.isfile(os.path.join(root, file[:-2] + "js")):
+        if (file.endswith(".md") and 
+            os.path.isfile(os.path.join(root, file[:-2] + "js")) and 
+            not os.path.isfile(os.path.join(root, "README.md"))):
              print(file)
              generate_readme(file[:-3], root, os.path.join(root, file), os.path.join(root, file[:-2] + "js"))
