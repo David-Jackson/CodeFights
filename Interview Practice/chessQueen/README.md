@@ -1,5 +1,5 @@
 # chessQueen
-﻿In chess, queens can move any number of squares vertically, horizontally, or diagonally. Find all the possible coordinates on an `8 × 8` chessboard that would be safe from the attack of a queen positioned at coordinate `q`. Return the coordinates sorted in [lexicographical order](keyword://lexicographical-order-for-strings).
+In chess, queens can move any number of squares vertically, horizontally, or diagonally. Find all the possible coordinates on an `8 � 8` chessboard that would be safe from the attack of a queen positioned at coordinate `q`. Return the coordinates sorted in [lexicographical order](keyword://lexicographical-order-for-strings).
 
 _Note: The coordinates should be given in the standard chess form: `a1`, `a2` ... `h8`._
 
@@ -31,8 +31,8 @@ Here is a visualization of the answer:
     A coordinate that indicates where the queen is positioned on the chessboard.
 
     _Guaranteed constraints:_
-    `'a' ≤ q[0] ≤ 'h'`,
-    `1 ≤ q[1] ≤ 8`.
+    `'a' ? q[0] ? 'h'`,
+    `1 ? q[1] ? 8`.
 
 *   **[output] array.string**
 

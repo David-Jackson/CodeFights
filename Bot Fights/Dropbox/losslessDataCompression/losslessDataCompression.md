@@ -1,4 +1,4 @@
-﻿In its effort to push the limits of file compression, Dropbox recently developed a lossless compression algorithm for H.264 and JPEG files. Since you are thinking about applying for a job at Dropbox, you decided to experiment with simple lossless compression as part of your interview prep.
+In its effort to push the limits of file compression, Dropbox recently developed a lossless compression algorithm for H.264 and JPEG files. Since you are thinking about applying for a job at Dropbox, you decided to experiment with simple lossless compression as part of your interview prep.
 
 One of the most widely known approaches in the field of compression algorithms is _sliding window compression_. It works as follows:
 
@@ -47,14 +47,14 @@ Given a string, apply _sliding window compression_ to it.
     A non-empty string of lowercase letters.
 
     _Guaranteed constraints:_
-    `1 ≤ inputString.length ≤ 40`.
+    `1 ? inputString.length ? 40`.
 
 *   **[input] integer width**
 
     A positive integer.
 
     _Guaranteed constraints:_
-    `1 ≤ width ≤ 10<sup>8</sup>`.
+    `1 ? width ? 10<sup>8</sup>`.
 
 *   **[output] string**
 
