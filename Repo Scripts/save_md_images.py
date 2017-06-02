@@ -19,7 +19,8 @@ def save_all_images_from_markdown(filename):
 
 
 
-for root, dirs, files in os.walk(os.path.join("..", "Arcade")):
+for root, dirs, files in os.walk(os.path.join("..")):
     for file in files:
         if file.endswith(".md"):
+             print(root)
              save_all_images_from_markdown(os.path.join(root, file))
