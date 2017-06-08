@@ -19,5 +19,4 @@ def change_all_image_links(filename):
 for root, dirs, files in os.walk(os.path.join("..")):
     for file in files:
         if file.endswith(".md"):
-             print(file)
              change_all_image_links(os.path.join(root, file))
