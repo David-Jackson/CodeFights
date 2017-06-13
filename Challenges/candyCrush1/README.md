@@ -38,8 +38,6 @@ There is a column with three candies of color `R` (red).
 ## My Solution
 ```javascript
 ﻿function candyCrush1(gameboard) {
-    var curColStreak = 0;
-    var curColCandy = "";
     for (var y = 0; y < gameboard.length; y++) {
         for (var x = 0; x < gameboard[y].length; x++) {
             if (
