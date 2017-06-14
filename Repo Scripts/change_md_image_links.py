@@ -2,7 +2,7 @@ import os
 import re
 
 def image_link_replace(matchObj):
-    print(matchObj.group(0))
+    # print(matchObj.group(0))
     url = matchObj.group(0)[4:-1].split("?")[0]
     name = "![](" + "images/" + os.path.basename(url) + ")"
     return name
