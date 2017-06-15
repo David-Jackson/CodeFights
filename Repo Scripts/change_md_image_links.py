@@ -10,7 +10,7 @@ def image_link_replace(matchObj):
 def change_all_image_links(filename):
     with open(filename, "r+") as f:
         file_text = f.read()
-        file_text = re.sub('!\[\]\(.+\)', image_link_replace, file_text)
+        file_text = re.sub('!\[.*\]\(.+\)', image_link_replace, file_text)
         f.seek(0)
         f.write(file_text)
         f.truncate()
