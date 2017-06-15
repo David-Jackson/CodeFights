@@ -5,7 +5,7 @@
 For `n = 3`, the output should be
 `sumOfTheAngles(n) = 180`.
 
-![Triangle](https://codefightsuserpics.s3.amazonaws.com/tasks/sumOfTheAngles/img/example.png?_tm=1491302412613)
+![](images/example.png)
 
 **Input/Output**
 
